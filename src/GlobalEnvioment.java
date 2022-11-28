@@ -16,7 +16,7 @@ public class GlobalEnvioment {
    System.out.println(prop.getProperty("browser"));
    System.out.println(prop.getProperty("url"));
  prop.setProperty("browser", "Edge");
-   System.out.println(prop.getProperty("browser"));
+   //System.out.println(prop.getProperty("browser"));
    FileOutputStream fos= new FileOutputStream("C:\\Users\\bs0452\\eclipse-workspace\\TestNGTutorial\\src\\data.properties");
    
   prop.store(fos, null);
